@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<tittle> Unique words</tittle>
+</head>
+<body>
+<?php 
+<form method='post' action='register.php'>
+    <input type='array' name='array'> <br>
+    explode ($c, $array);
+    $c = ' ';
+    		<input type='send'>
+ $arr= array_unique( $array );
+ print_r($arr);
+
+ 
+	</form>
+?>
+</body>
+</html>
